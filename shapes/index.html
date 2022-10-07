@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .rectangle {
+            background-color: red;
+            /* height: 100px; */
+            width: 200px; 
+            padding: 50px 0px;
+        }
+
+        .square {
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+        }
+
+        .circle {
+            background-color: pink;
+            height: 200px;
+            width: 200px;
+            text-align:center;
+            /* border-radius: 100px; */
+            box-sizing: border-box;
+        }
+
+        .textcircle {
+            position: relative;
+            /* margin: 50% 50%; */
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .semi-circle {
+            background-color: yellow;
+            height: 100px;
+            width: 200px;
+            border-radius: 100px 100px 0px 0px;
+        }
+
+        .diamond {
+            background-color: green;
+            margin: 100px;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            transform: rotate(45deg);
+        }
+        .ellipse {
+            background-color: red;
+            /* height: 100px; */
+            width: 200px; 
+            padding: 50px 0px;
+            border-radius: 50%;
+        }
+        
+        .triangle {
+            background-color: purple;
+            /* height: 100px;
+            width: 100px; */
+            width:0px;
+            /* border-top: 100px solid white; */
+            border-left: 300px solid white;
+            border-bottom: 400px solid black;
+            border-right: 300px solid white;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="rectangle"></div>
+    <hr>
+    <div class="square"></div>
+    <hr>
+    <div class="circle">
+        <p class="textcircle">CIRCLE</p> 
+    </div>
+    <hr>
+    <div class="semi-circle"></div>
+    <hr>
+    <div class="diamond">
+        <p class="textcircle">Square</p> 
+    </div>
+    <div class="ellipse">
+        <p class="textcircle">Ellipse</p> 
+    </div>
+    <hr>
+    <div class="triangle"></div>
+    <p>forca barca</p>
+</body>
+</html>
